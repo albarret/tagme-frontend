@@ -1,0 +1,120 @@
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30%;
+
+  &-top {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: transparent;
+
+    &-btn {
+      border: 0;
+      color: #fafafa;
+      box-shadow: none;
+      background-color: transparent;
+    }
+  }
+
+  &-texto {
+    padding: 5% 5% 1%;
+    background-color: transparent;
+    color: white;
+
+    &-nome {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+
+  &-card {
+    display: flex;
+
+    &-text {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+.ingredientes {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1%;
+  background-color: #fafafa;
+}
+
+.passos-preparo {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1%;
+  background-color: #ffffff;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+  padding-bottom: 3%;
+  background-color: #f1eff0;
+
+  &-btn {
+    font-weight: bold;
+    color: white;
+    border-color: orange;
+    background-color: orange;
+  }
+}
+
+.ant-checkbox-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-checkbox-inner {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.ant-checkbox-wrapper {
+  align-items: center;
+  padding-bottom: 0.5%;
+}
+
+.ant-checkbox-checked::after {
+  border: 0;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: orange;
+  border-color: orange;
+}
+
+.ant-checkbox-inner::after {
+  left: 32.4%;
+  width: 9.71428571px;
+  height: 17.14285714px;
+}
+
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: orange;
+}
+
+.ant-card-body {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+}
