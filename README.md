@@ -1,7 +1,9 @@
 # Desafio TagMe: Frontend
 
 Este repositório contém todos os arquivos referentes ao frontend do projeto. Para consultar o backend, acesse: https://github.com/albarret/tagme-frontend
+
 Os recursos de desenvolvimento usados foram TypeScript e React. Foi também utilizada a biblioteca Ant Design para os componentes de tela (https://ant.design/docs/react/getting-started).
+
 As telas desenvolvidas nesse projeto se encontram na pasta components, dentro de src. Além disso, todas as imagens externas que foram utilizadas podem ser encontradas na pasta assets, também dentro da pasta src.
 
 ## Para instalar e utilizar este repositório
